@@ -1,0 +1,10 @@
+data/kernel_matrix_16_10000_15.pkl filter=lfs diff=lfs merge=lfs -text
+data/kernel_matrix_8_10000_25.pkl filter=lfs diff=lfs merge=lfs -text
+data/distance_matrix_8_10000_25.pkl filter=lfs diff=lfs merge=lfs -text
+data/graphs_16_10000_15.pkl filter=lfs diff=lfs merge=lfs -text
+data/mercer_16_10000_15.pkl filter=lfs diff=lfs merge=lfs -text
+data/distance_matrix_16_10000_15.pkl filter=lfs diff=lfs merge=lfs -text
+data/graphs_8_10000_25.pkl filter=lfs diff=lfs merge=lfs -text
+data/mercer_16_10000_15_distance.pkl filter=lfs diff=lfs merge=lfs -text
+data/mercer_8_10000_25_distance.pkl filter=lfs diff=lfs merge=lfs -text
+data/mercer_8_10000_25.pkl filter=lfs diff=lfs merge=lfs -text
