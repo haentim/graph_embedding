@@ -27,7 +27,7 @@ if __name__ == '__main__':
     with open(f'../data/distance_matrix_{dataset}.pkl','wb') as f:
         pkl.dump(distance_matrix,f)
     
-    truncation = 64
+    truncation = None
     
     evals,evecs = scipy.sparse.linalg.eigsh(distance_matrix,k=(truncation if truncation is not None else 256))
     signature = np.where(evals<0,1,0)
